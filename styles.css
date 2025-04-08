@@ -7,14 +7,14 @@
 
 /* Global body style */
 body {
-  background-color: #2d2d2d;
+  background-color: #5A5A5A;
   font-family: "Saira", sans-serif;
   padding-top: 120px; /* Prevents content from hiding under fixed navbar */
 }
 
 /* Navbar container styles */
 .navbar-container {
-  background-color: #fff;
+  background-color: #FFF4E1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +73,7 @@ body {
     position: absolute;
     top: 100px; /* height of navbar */
     right: 0;
-    background-color: #fff;
+    background-color:#FFF4E1;
     width: 100%;
     text-align: center;
     padding: 20px 0;
