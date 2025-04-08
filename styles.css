@@ -9,7 +9,6 @@
 body {
   background-color: #5A5A5A;
   font-family: "Saira", sans-serif;
-  padding-top: 120px; /* Prevents content from hiding under fixed navbar */
 }
 
 /* Navbar container styles */
@@ -87,4 +86,18 @@ body {
     padding: 15px 0;
     font-size: 18px;
   }
+}
+
+/* Hero Image Section */
+.hero {
+  margin-top: 0%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  object-fit: cover; /* Scales nicely and maintains aspect ratio */
 }
