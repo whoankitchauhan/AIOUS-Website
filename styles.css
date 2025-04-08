@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 40px; /* adds spacing around content */
 }
 
 /* Navbar list styles */
@@ -27,7 +28,7 @@ body {
 /* Individual navbar item styling */
 .navbar-items li {
   list-style: none;
-  margin: 20px 30px 20px 0; /* top right bottom left */
+  margin: 0 20px;
   font-size: 1.2rem;
 }
 
@@ -41,8 +42,7 @@ body {
 
 /* Logo styling */
 .logo {
-  margin: 20px 0 20px 30px; /* top right bottom left */
-  width: 168.1px;
-  height: 41px;
-  object-fit: contain; /* ensures the logo scales nicely */
+  width: 220px;
+  height: auto; /* keeps the aspect ratio correct */
+  object-fit: contain;
 }
