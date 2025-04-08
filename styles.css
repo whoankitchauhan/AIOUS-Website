@@ -1,40 +1,48 @@
+/* Reset default spacing */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* Global body style */
 body {
   background-color: black;
+  font-family: "Saira", sans-serif;
 }
+
+/* Navbar container styles */
 .navbar-container {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  height: 70px;
   align-items: center;
 }
+
+/* Navbar list styles */
 .navbar-items {
   display: flex;
 }
 
+/* Individual navbar item styling */
 .navbar-items li {
   list-style: none;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin: 20px 30px 20px 0; /* top right bottom left */
   font-size: 1.2rem;
 }
 
+/* Navbar links styling */
 .navbar-items a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: #2D2D2D;
-    font-weight: 500;
+  text-decoration: none;
+  color: #2d2d2d;
+  font-weight: 500;
+  font-size: 24px;
 }
+
+/* Logo styling */
 .logo {
-  padding: 5px;
-  margin: 5px;
+  margin: 20px 0 20px 30px; /* top right bottom left */
   width: 168.1px;
   height: 41px;
-  top: 33px;
-  left: 43px;
+  object-fit: contain; /* ensures the logo scales nicely */
 }
