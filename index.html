@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character set and responsiveness -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- External stylesheet -->
+    <!-- Linking external CSS file -->
     <link rel="stylesheet" href="styles.css" />
 
-    <!-- Google Fonts: Saira -->
+    <!-- Google Fonts import -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
 
     <title>AIOUS Website</title>
   </head>
+
   <body>
-    <!-- Navbar Section -->
+    <!-- ================= NAVBAR SECTION ================= -->
     <nav class="navbar">
       <div class="navbar-container">
-        <!-- Logo -->
+        <!-- Website Logo -->
         <img class="logo" src="AIOUS Logo.png" alt="AIOUS Logo" />
 
-        <!-- Hamburger Icon -->
+        <!-- Hamburger icon for mobile view -->
         <div class="hamburger" id="hamburger">&#9776;</div>
 
-        <!-- Navbar Links -->
-        <ul class="navbar-items">
+        <!-- Navigation links -->
+        <ul class="navbar-items" id="navbar-items">
           <li><a href="#">Formula Student</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Team</a></li>
@@ -36,27 +38,29 @@
       </div>
     </nav>
 
-    <!-- Hero Section / Homepage Image -->
-
+    <!-- ================= HERO SECTION ================= -->
     <section class="hero">
       <div class="title">
         <div class="heading">
-            <img width="30px"  height="30px" src="left-chevron.png" alt="">
-            <div class="text">
-                <span>AIOUS</span>
-                <span>South Asia's First All Women Formula Student Team</span>
+          <!-- Left decorative chevron icon -->
+          <img width="30" height="40" src="left-chevron.png" alt="Left Chevron" />
+          
+          <!-- Main tagline image for hero section -->
+          <img class="hero-title" src="hero image.png" alt="AIOUS Tagline" />
 
-            </div>
-            
-            <img  width="30px" height="30px"  src="chevron.png" alt="">
+          <!-- Right decorative chevron icon -->
+          <img width="30" height="40" src="right-chevron.png" alt="Right Chevron" />
         </div>
-       </div>
-        
-        <div class="subheading">
-            <div class="chevron_first"></div>
-            <div class="chevron_secound"></div>
-        </div>
+      </div>
+
+      <!-- Decorative subheading chevrons below the main title -->
+      <div class="subheading">
+        <div class="chevron_first"></div>
+        <div class="chevron_second"></div>
+      </div>
     </section>
+
+    <!-- Linking external JavaScript file for interactivity -->
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
