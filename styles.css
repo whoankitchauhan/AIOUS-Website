@@ -89,16 +89,33 @@ body {
 
 /* ================= HERO SECTION ================= */
 .hero {
-  background-image: url("background image.png"); /* Hero background */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 550px;
   position: relative;
-  margin-top: 85px; /* Offset for fixed navbar */
+  height: 550px;
+  margin-top: 85px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("background image.png"); /* Default bg */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+.hero.fade::before {
+  opacity: 0;
 }
 
 /* Hero title wrapper */
